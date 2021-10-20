@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #121214;
+  --login-background: #17171a;
+  --input-background: #202024;
+
+  --text-color: #e1e1e6;
+  --text-color-secund: #29292e;
+  --text-color-alternative: #8d8d99;
+
+  --login-button-background: #ffcd1e;
+  --login-button-text-color: #09090a;
+
+  --gradient1: #ff008e;
+  --gradient2: #ffcd1e;
+
+  --action: #c4c4cc;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5, strong {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
